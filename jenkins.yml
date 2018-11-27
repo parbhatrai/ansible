@@ -1,0 +1,8 @@
+---
+- name: Install Jenkins
+  hosts: slaves
+  tasks:
+  - import_role:
+      name: jenkins
+  become: true
+...    
